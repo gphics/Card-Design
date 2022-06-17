@@ -47,6 +47,30 @@
                     .C p {
                         width: 90%;
                     }
+                    #open {
+                        background: blue;
+                        width: 200px;
+                        height: 50px;
+                        border-radius: 10px;
+                        animation-name: stud;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                        text-align: center;
+                    }
+                    @keyframes stud {
+                        100% {
+                            transform: scale(2, 2);
+                            background: purple;
+                        }
+                        50% {
+                            background: green;
+                        }
+                    }
+                    #open a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                    }
                 }
                 
                 @media screen and (min-width:800px) {
@@ -98,5 +122,29 @@
                     .C h2 {
                         margin-top: 20%;
                         width: 50%;
+                    }
+                    #open {
+                        background: blue;
+                        width: 200px;
+                        height: 50px;
+                        border-radius: 10px;
+                        animation-name: stud;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                        text-align: center;
+                    }
+                    @keyframes stud {
+                        100% {
+                            transform: scale(2, 2);
+                            background: purple;
+                        }
+                        50% {
+                            background: green;
+                        }
+                    }
+                    #open a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
                     }
                 }
