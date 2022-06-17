@@ -1,0 +1,128 @@
+            @font-face {
+                font-family: Big;
+                src: url('BigShouldersDisplay-VariableFont_wght.ttf')
+            }
+            
+            main {
+                background: rgb(248, 248, 248);
+                display: flex;
+                width: 60%;
+                font-family: Big;
+                justify-content: center;
+                align-items: center;
+                padding: 20%;
+                color: rgb(255, 246, 246);
+                flex-flow: row wrap;
+            }
+            
+            .A {
+                background-color: #FF5EBB;
+                width: 30%;
+                height: 350px;
+                padding: 10px;
+                overflow: hidden;
+                animation-name: A;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            
+            @keyframes A {
+                50% {
+                    background: #BA4589;
+                }
+                100% {
+                    background: #67264C;
+                }
+            }
+            
+            @keyframes B {
+                50% {
+                    background: #B145BA;
+                }
+                100% {
+                    background: #662667;
+                }
+            }
+            
+            @keyframes C {
+                50% {
+                    background: #BA454E;
+                }
+                100% {
+                    background: #67262B;
+                }
+            }
+            
+            .B {
+                background-color: #F25EFF;
+                width: 30%;
+                height: 350px;
+                padding: 10px;
+                overflow: hidden;
+                animation-name: B;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            
+            .C {
+                background-color: #FF5E6B;
+                width: 30%;
+                height: 350px;
+                padding: 10px;
+                overflow: hidden;
+                animation-name: C;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            
+            h2 {
+                letter-spacing: 1.5px;
+                margin: 5px;
+                font-weight: 700px;
+            }
+            
+            #three {
+                letter-spacing: 0.5px;
+                margin: 35px 0px;
+                padding-right: 11px;
+                font-weight: 400px;
+            }
+            
+            button {
+                /* margin-top: 45px; */
+                background: white;
+                color: black;
+                font-weight: 400px;
+                border-radius: 15px;
+                width: 70%;
+                height: 30px;
+                border: none;
+                letter-spacing: 0.5px;
+                font-weight: 400px;
+            }
+            
+            .D {
+                margin-top: 20%;
+            }
+            
+            .E {
+                margin-top: 38%;
+            }
+            
+            .F {
+                margin-top: 38%;
+            }
+            
+            button:hover {
+                border: 3px solid rgb(255, 255, 255);
+                background: none;
+                color: white;
+            }
+            
+            @media (max-width:1440px) and (min-width:375px) {
+                .A,
+                .B,
+                .C {
+                    flex: 0 1 auto;
+                }
+            }

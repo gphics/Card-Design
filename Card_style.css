@@ -1,0 +1,102 @@
+                main {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    margin-top: 40%
+                }
+                
+                @media screen and (min-width:357px) {
+                    main {
+                        min-width: 357px;
+                    }
+                    .A,
+                    .B,
+                    .C {
+                        width: 31%;
+                        height: 400px;
+                        padding: 4px;
+                        flex: 0 1 auto;
+                    }
+                    .A {
+                        background: hsl(31, 77%, 52%);
+                    }
+                    .B {
+                        background: hsl(184, 100%, 22%);
+                    }
+                    .C {
+                        background: hsl(179, 100%, 13%);
+                    }
+                    button {
+                        background: white;
+                        color: black;
+                        font-weight: 400px;
+                        border-radius: 10px;
+                        margin-top: 20%;
+                        height: 6%;
+                        width: 90%;
+                        border: none;
+                    }
+                    button:hover {
+                        background: none;
+                        border: 2px solid white;
+                        color: white;
+                    }
+                    .A p,
+                    .B p,
+                    .C p {
+                        width: 90%;
+                    }
+                }
+                
+                @media screen and (min-width:800px) {
+                    main {
+                        padding: 5%;
+                        margin-top: 10%;
+                        justify-content: center;
+                        max-width: 1440px;
+                    }
+                    .A,
+                    .B,
+                    .C {
+                        width: 31%;
+                        height: 500px;
+                        padding-left: 2%;
+                    }
+                    .A {
+                        background: hsl(31, 77%, 52%);
+                    }
+                    .B {
+                        background: hsl(184, 100%, 22%);
+                    }
+                    .C {
+                        background: hsl(179, 100%, 13%);
+                    }
+                    button {
+                        background: white;
+                        color: black;
+                        font-weight: 400px;
+                        border-radius: 10px;
+                        margin-top: 30%;
+                        height: 6%;
+                        width: 50%;
+                        border: none;
+                    }
+                    button:hover {
+                        background: none;
+                        border: 2px solid white;
+                        color: white;
+                    }
+                    .A p,
+                    .B p,
+                    .C p {
+                        margin-top: 10%;
+                        width: 50%;
+                    }
+                    .A h2,
+                    .B h2,
+                    .C h2 {
+                        margin-top: 20%;
+                        width: 50%;
+                    }
+                }
